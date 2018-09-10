@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Nanum+Gothic" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="foodstyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  </style>
+</head>
+<body>
+    <div class="container-fluid appWrapper">
+        <div class="row col-sm-12 col-md-12 col-lg-12 headingfont"> <!-- Heading -->
+            <h1 class="text-center text-sm-left"> Chilliflakes & Oregano </h1>
+        </div>
+        <div><!-- Nav Bar and social media buttons -->
+                    <div class="row col-sm-6 col-md-6 col-lg-6 appHeader text-left">
+                        <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#portfolio">Recipes</a></li>
+                        <li><a href="#contact" >About</a></li>
+                        <li><a href="#about">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="row col-sm-6 col-md-6 col-lg-6 appHeader text-right">
+                        <a href="https://www.facebook.com/MeghaShankarPage/" type="button" class="btn-floating btn-lg btn-fb btn-primary"><i class="fa fa-facebook"></i></a>
+                        <!--Twitter-->
+                        <a type="button" class="btn-floating btn-lg btn-tw btn-primary"><i class="fa fa-twitter"></i></a>
+                        <!--Google +-->
+                        <a type="button" class="btn-floating btn-lg btn-gplus btn-primary"><i class="fa fa-google-plus"></i></a>
+                        <!--Instagram-->
+                        <a href="https://www.instagram.com/_meghashankar_/" type="button" class="btn-floating btn-lg btn-ins btn-primary"><i class="fa fa-instagram"></i></a>
+                        <!--Pinterest-->
+                        <a href="https://in.pinterest.com/chilliflakesandoregano/" type="button" class="btn-floating btn-lg btn-pin btn-primary"><i class="fa fa-pinterest"></i></a>
+                    </div>
+
+        </div>
+        <div class="row col-sm-12 col-md-12 col-lg-12">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="https://chilliflakesandoregano.wordpress.com/2018/05/10/stovetop-cheese-garlic-bread">
+                        <img class="img-fluid" src="Cheese Garlic Bread.jpg"  alt="Los Angeles" width="50%" height="250">
+                        <div class="carousel-caption">
+                            <h3>Stovetop Cheese Garlic Bread</h3>
+                            <p>A lipsmacking starter ready in just 15 mins</p>
+                        </div>   
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="https://chilliflakesandoregano.wordpress.com/2018/08/27/avocado-on-toast-with-poached-eggs/">
+                        <img class="img-fluid" src="Avocado on toast.jpg"  alt="Chicago" width="50%" height="250"> 
+                        <div class="carousel-caption">
+                            <a><h3>Avocado on toast with poached eggs</h3></a>
+                            <p>A power-packed breakfast to kick-start your day!</p>
+                        </div>  
+                    </a> 
+                </div>
+                <div class="carousel-item">
+                    <a href="https://chilliflakesandoregano.wordpress.com/2018/08/01/mochar-chop/">
+                        <img class="img-fluid" src="Mochar Chop.jpg" alt="New York" width="50%" height="250">
+                        <div class="carousel-caption">
+                            <h3>Mochar Chop</h3>
+                            <p>Bengal's favourite tea-time snack</p>
+                        </div>  
+                    </a> 
+                </div>
+            </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+             </div>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255,255,255);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: rgb(0,0,0);
+    text-align: center;
+    font-size: 120%;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+li a:hover {
+    color:rgb(192, 11, 11);
+    text-decoration: none;
+}
+.headingfont {
+    text-decoration: none;
+    font-size: 500%;
+    color: rgb(192, 11, 11);
+    font-family: 'Dancing Script', cursive;
+    padding: 30px;
+}
+.recipefont {
+    text-decoration: none;
+    border: none;
+    font-size: 90%;
+    color: rgb(192, 11, 11);
+    font-family: 'Raleway', sans-serif;
+}
+.cardbuttons{
+    font-family: 'Dancing Script', cursive;
+    font-size: 150%;
+    color: rgb(0, 0, 0);
+    text-decoration-line: underline rgb(0,0,0);
+}
+.btn-primary {
+    background-color: #ffffff;
+    border-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.btn-primary:hover, .btn-primary:focus {
+    border-color:none;
+    background-color: #ffffff;
+    color: rgb(192, 11, 11); 
+}
+.btn-primary:visited,  {
+    border-color: none;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0) 
+}
+.btn-primary:active, .btn-primary:active:focus {
+    border-color: none;
+    background-color: #ffffff;
+    color:rgb(192, 11, 11) 
+}
+.btn-primary:active:hover {
+    border-color: none;
+    background-color: #ffffff;
+    color:rgb(192, 11, 11) 
+}
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1)
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    
+<title>Gallery</title>
+<head>
+        <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Open+Sans" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/ico" href="Palette.png"/>
+        <script type="text/javascript">
+     function ExampleJS(){
+	    var name = document.getElementById("fname").value;
+        var email = document.getElementById("lid").value;
+        var element = document.getElementById("submitDiv");
+	    element.innerHTML = "Your name " + name + " and email id " + email + " has been submitted"
+     }
+     </script>
+</head>
+<body>
+    <div class ="divimg"><!-- Image Div-->
+        <img src="Landscape.jpg" width="100%" height="100%" alt="Landscape"></div>
+    
+    <div class="divtxt"><br><br><!-- Text Div-->
+        <div id="heading"><h1><i> Enter your details</i></h1></div>
+        <div class="content"><!-- Box Div-->
+            <div class="defaultpadding"></div>
+            <div id="height"><!-- Name-->
+                <div class="inputtag"><b><i>First name:</i></b></div>
+                <div class="inputfield"><input type="text" id ="fname" name="Name" value=""></div>           
+            </div>
+		    <div id="height">
+                <div class="inputtag"><b><i>Email ID:</i></b></div>
+                <div class="inputfield"><input type="text" id ="lid" name="Email ID" value=""></div>            
+            </div>
+		    <div>
+            <button class="button" onclick="ExampleJS()">Submit</button>
+            </div>
+		    <p class="defaultpadding">
+                <div id="submitDiv"></div>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
